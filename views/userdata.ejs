@@ -1,0 +1,18 @@
+<html>
+  
+  <body>
+    <h1><%= title %></h1>
+
+        <form action = "/users/update" method = "POST">
+            User: <input type = "text" name = "username" value = "<%= username %>"><br><br>
+            Pwd: <input type = "text" name = "pwd" value = "<%= pwd %>"><br><br>
+            Transactions: <input type = "number" name = "transactions" value = "<%= number %>"><br><br>
+
+            <input type = "submit" value = "<%= button %>">
+        </form>
+
+    <br>
+    <a href = "/menu">Back To Menu</a>
+  </body>
+  </body>
+</html>

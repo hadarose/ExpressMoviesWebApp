@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <h1><%= title %></h1>
+
+    <h3>You have <%= number %> transactions left for today!</h3>
+
+    <form action="menu/getoption" method="POST">
+      <select name="actions">
+        <option disabled selected value>-- Select an Action --</option>
+        <option name="create">Create New Movie</option>
+        <option name="search">Search A Movie</option>
+        <option name="edit"><%= data %></option>
+      </select>
+      <br /><br />
+      <br /><br />
+      <input type="submit" value="Select" />
+    </form>
+  </body>
+</html>
