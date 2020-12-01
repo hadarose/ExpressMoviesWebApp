@@ -1,4 +1,4 @@
-This project is an app for managing a movie-library in MVC model.
+This project is a movie-library web app designed in MVC model.
 A Node.js server was built in Express framework and designed to retrieve information from both web-service server and json files. 
 The information is presented to the client via EJS and the application itself is designed in Express Routers architecture, with DAL and BL layers.
 
