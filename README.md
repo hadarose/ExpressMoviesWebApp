@@ -1,6 +1,6 @@
 This project is a movie-library web app designed in MVC model.
-A Node.js server was built in Express framework and designed to retrieve information from both web-service server and json files. 
-The information is presented to the client via EJS and the application itself is designed in Express Routers architecture, with DAL and BL layers.
+A Node.js server was built in Express framework, and retrieves information from both web-service server and json files. 
+The information is presented to client via EJS, and the application itself is designed in Express Routers architecture, with DAL and BL layers.
 
 ![image](https://user-images.githubusercontent.com/68274794/98711801-23547d80-238e-11eb-8343-772747b65a83.png)
 
